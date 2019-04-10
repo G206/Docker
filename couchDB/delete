@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker rmi apache/couchdb:2.1.1

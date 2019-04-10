@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker stop c_db
+#docker rm c_db

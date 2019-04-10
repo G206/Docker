@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t g206/make-html .
+docker run --name maker --restart unless-stopped -v /var/www/html:/var/www/html -d -p 30027:80 g206/make-html

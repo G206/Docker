@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd UbuntuBase
+./delete
+cd ../Apache
+./delete
+cd ../HtmlViewer
+./delete
+cd ../MakeHtml
+./delete

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd UbuntuBase
+./build
+cd ../Apache
+./build
+cd ../HtmlViewer
+./build
+cd ../MakeHtml
+./build

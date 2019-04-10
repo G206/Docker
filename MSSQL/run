@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=!SQL.001!' -p 1433:1433 --name sql10 -d g206/mssql

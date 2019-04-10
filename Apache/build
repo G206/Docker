@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t g206/apache .
+docker run --name apache-docker-container --restart unless-stopped -d -p 30028:80 g206/apache
