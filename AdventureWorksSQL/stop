@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker stop sql10
+#docker rm sql10
