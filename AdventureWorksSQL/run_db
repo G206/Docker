@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=password' -p 1433:1433 --name sql10 -d g206/mssql-adventure_works
+docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=MsSqlAdmin' -p 1433:1433 --name sqlAdventure1 -d g206/mssql-adventure_works
 

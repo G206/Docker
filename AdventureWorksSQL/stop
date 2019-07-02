@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker stop sql10
-#docker rm sql10
+docker stop sqlAdventure1
+#docker rm sqlAdventure1

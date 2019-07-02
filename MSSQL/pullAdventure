@@ -1,3 +1,0 @@
-#!/bin/bash
-
-docker pull  g206/mssql-adventure_works:latest
