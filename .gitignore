@@ -72,6 +72,7 @@ npm-debug.log
 # /build
 
 # MacOS Specific 
+*.DS_Store
 .DS_Store
 
 # AdventureWorks DB
