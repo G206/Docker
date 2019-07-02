@@ -1,5 +1,5 @@
 #!/bin/bash
 
 #docker run -p 5984:5984 --volume ~/data:/opt/couchdb/data --volume ~/etc/local.d:/opt/couchdb/etc/local.d --env COUCHDB_USER=admin --env COUCHDB_PASSWORD=couchAdmin --name c_db g206/c_db
-docker run -d -p 5984:5984 --env COUCHDB_USER=admin --env COUCHDB_PASSWORD=couchAdmin --name c_db g206/c_db
+docker run -d -p 5984:5984 --env COUCHDB_USER=admin --env COUCHDB_PASSWORD=password --name c_db g206/c_db
 #docker run -d -p 5984:5984 --name c_db g206/c_db
